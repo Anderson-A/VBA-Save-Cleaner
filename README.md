@@ -1,2 +1,3 @@
-# VBA-Save-Renamer
-When using network link in VisualBoyAdvance, VBA appends a number at the end of each savefile you're linking with to track which is player 1, player 2,... VBA however doesn't remove the number once you're done, so when you start up the rom again it won't use that savefile because they'll have different names. You'd either have to manually rename the .sav to math the rom files again or use "import battery file" in VBA to associate it with the rom. This script will delete the old savefiles and rename the one made after using network link to match the rom with a simple double click of the .exe file.
+# VBA-Save-Cleaner
+
+If you have multiple save files for a .gba rom in a folder, this script will delete them all except for the one that was most recently modified, which will presumably be the save you're playing with. Specifically comes in handy after VBA's link function. Place the exe file in the same folder as your roms and double click it to run.
